@@ -8,19 +8,19 @@
 
 .theme-dark, .theme-light {
     /* || Main Colors */
-    --essence-primary: #253529;
-    --essence-secondary: #35523D;
-    --essence-alt: #4C634A;
-    --essence-tertiary: #1D281E;
-    --essence-app-background: #141F14;
+    --essence-primary: #2C2136;
+    --essence-secondary: #3A2A46;
+    --essence-alt: #473456;
+    --essence-tertiary: #1F1726;
+    --essence-app-background: #120D16;
     --essence-app-background-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
-    --essence-popouts: #192719;
-    --essence-modals: #232E23;
-    --essence-bgaccent: #2E3C2B;
-    --essence-inputs: #1F2A1F;
+    --essence-popouts: #18121C;
+    --essence-modals: #271D2F;
+    --essence-bgaccent: #362942;
+    --essence-inputs: #221929;
     --essence-card: var(--essence-tertiary);
     --essence-scroller-thumb: hsl(var(--essence-accent-brand));
-    --essence-scroller-track: #35523D;
+    --essence-scroller-track: #3A2A46;
 
     /* || Text Colors */
     --essence-text-primary: #E8E2EE;
@@ -36,9 +36,9 @@
     --essence-interactive-muted: #635A69;
 
     /* || Accent Colors - Adding calc(var(saturation-factor)*X%) is not required. */
-    --essence-accent-brand-saturated: 119, calc(var(--saturation-factor, 1) * 31%), 90%;
-    --essence-accent-brand: 119, calc(var(--saturation-factor, 1) * 48%), 64%;
-    --essence-accent-brand-alt: 119, calc(var(--saturation-factor, 1) * 33%), 22%;
+    --essence-accent-brand-saturated: 281, calc(var(--saturation-factor, 1) * 31%), 90%;
+    --essence-accent-brand: 281, calc(var(--saturation-factor, 1) * 48%), 64%;
+    --essence-accent-brand-alt: 281, calc(var(--saturation-factor, 1) * 33%), 22%;
     --essence-accent-red: 360, calc(var(--saturation-factor, 1) * 53%), 60%;
     --essence-accent-orange: 11, calc(var(--saturation-factor, 1) * 53%), 60%;
     --essence-accent-yellow: 43, calc(var(--saturation-factor, 1) * 53%), 60%;
@@ -50,9 +50,9 @@
 
     /* || Button Colors */
     --button-brand-background: hsl(var(--essence-accent-brand));
-    --button-brand-background-hover: hsl(119, calc(var(--saturation-factor, 1) * 34%), 48%);
-    --button-brand-background-active: hsl(119, calc(var(--saturation-factor, 1) * 34%), 41%);
-    --button-brand-background-disabled: hsl(119, calc(var(--saturation-factor, 1) * 43%), 59%);
+    --button-brand-background-hover: hsl(281, calc(var(--saturation-factor, 1) * 34%), 48%);
+    --button-brand-background-active: hsl(281, calc(var(--saturation-factor, 1) * 34%), 41%);
+    --button-brand-background-disabled: hsl(281, calc(var(--saturation-factor, 1) * 43%), 59%);
     
     --button-red-background: hsl(var(--essence-accent-red));
     --button-red-background-hover: hsl(360, calc(var(--saturation-factor, 1) * 43%), 52%);
@@ -69,6 +69,3 @@
     --button-grey-background-active: #ACA9BE;
     --button-grey-background-disabled: #89869D;
 }
-
-
-/* || Theme Specific Changes - Custom changes for the theme should go below this line. */
